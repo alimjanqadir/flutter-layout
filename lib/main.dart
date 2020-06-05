@@ -67,6 +67,18 @@ class RowAndColumn extends StatelessWidget {
             Flexible(flex: 1, fit: FlexFit.tight, child: Box()),
             Flexible(flex: 1, fit: FlexFit.tight, child: Box()),
           ]),
+          Divider(),
+          Row(children: [
+            Box(),
+            Box(),
+            Box(),
+            Box(),
+            Box(),
+            Box(),
+            Box(),
+            Expanded(child: Box()),
+            Box(),
+          ]),
         ]),
       ),
     );
