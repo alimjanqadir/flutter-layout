@@ -1,7 +1,17 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(RowAndColumn());
+  runApp(BasicLayout());
+}
+
+class BasicLayout extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+        child: Text("بۇ بىر سىناق!",
+            textDirection: TextDirection.rtl,
+            style: TextStyle(fontFamily: "UKIJ Esliye")));
+  }
 }
 
 class RowAndColumn extends StatelessWidget {
